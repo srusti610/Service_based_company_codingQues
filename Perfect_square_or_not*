@@ -1,0 +1,17 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+ 
+int main()
+{
+	int n=49;
+	
+	if(floor(sqrt(n))==ceil(sqrt(n)))  //remember the formula
+	{
+		cout<<"yes";
+	}
+	else
+	{
+		cout<<"no";
+	}
+}
