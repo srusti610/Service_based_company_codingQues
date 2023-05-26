@@ -1,0 +1,17 @@
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	double base=1.5;
+	double exp1=1.0;
+	double exp2=-1.0;
+	double res1,res2;
+	
+	res1=pow(base,exp1);
+	res2=pow(base,exp2);
+	cout<<res1<<endl;
+	cout<<res2;
+}
+
