@@ -1,0 +1,23 @@
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	double base=1.5;
+	double exp=-1.0;
+	double res=1.0;
+	
+	while(exp>0)
+	{
+		res*=base;
+		exp--;
+	}
+	while(exp<0)
+	{
+		res/=base;
+		exp++;
+	}
+	cout<<res;
+}
+
